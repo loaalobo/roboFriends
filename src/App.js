@@ -22,7 +22,7 @@ class App extends Component {
         })
         return (
             <div className='tc'>
-                <h1>RoboFriends</h1>
+                <h1 className='f2'>RoboFriends</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <CardList robots={filteredRobots}/> {/* robots and searchBox are the state / the state able to change the value of the searchBox, the value of the input, etc. */}
             </div>   
