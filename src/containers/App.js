@@ -41,6 +41,7 @@ class App extends Component {
                         <CardList robots={filteredRobots}/> {/* robots and searchBox are the state / the state able to change the value of the searchBox, the value of the input, etc. */}
                     </ErrorBoundry>
                 </Scroll>
+                <p>Desenvolvido por <a href="https://github.com/loaalobo">Lorena Lobo</a></p>
             </div> 
         );
     }
